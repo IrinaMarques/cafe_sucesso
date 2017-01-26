@@ -1,0 +1,24 @@
+/*body {
+	background: url(../img/bg.jpg) no-repeat center center fixed;;
+	background-size: cover;
+}*/
+
+
+body {
+	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+}
+
+img {
+	vertical-align: middle;
+}
+/*
+.brand {
+	font-size: 5em;
+	text-align: center;
+	}
+*/
+/*.carousel-caption {
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 25px;
+}*/
