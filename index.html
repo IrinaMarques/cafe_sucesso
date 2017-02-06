@@ -19,12 +19,12 @@
 <body>
 	<header role='banner'>
 		<div class='container brand text-center'>
-			<h1>Café Sucesso</h1> 
+			<h1 class='display-1'>Café Sucesso</h1> 
 			<p><i>O melhor café servido na internet!</i></p>
 		</div>
 		<!--NAVBAR-->
-		<nav class='navbar navbar-inverse' id='main-navbar' role='navigation'>
-			<div class='container'>
+		<nav class='navbar navbar-default' id='main-navbar' role='navigation'>
+			<div class='container'> 
 				<!-- Navbar-header -->
 				<div class='navbar-header'>
 					<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#navbar-collapse'>
@@ -36,14 +36,13 @@
 				</div> <!-- end navbar-header -->
 
 				<div class='collapse navbar-collapse' id='navbar-collapse'>
-					<a href="#" class='btn btn-info navbar-btn navbar-right'>Comprar!</a>
-
+			
 					<ul class='nav navbar-nav'>
-						<li><a href="#section-clientes">O que dizem</a></li>
-						<li><a href="#section-cafe">O nosso café</a></li>
-						<li><a href="#section-moinhos">As nossas receitas</a></li>
-						<li><a href="#section-produtos">Produtos associados</a></li>
-						<li><a href="#section-contactos">Contactos</a></li>
+						<li><a href="#section-clientes"> Opini&atilde;o</a></li>
+						<li><a href="#section-cafe"> Caf&eacute;</a></li>
+						<li><a href="#section-moinhos"> Moinhos</a></li>
+						<li><a href="#section-produtos"> Outros Produtos</a></li>
+						<li><a href="#section-contactos"> Contactos</a></li>
 					</ul>
 				</div>
 			</div> <!-- end of container -->
@@ -52,70 +51,78 @@
 		<!-- CAROUSEL -->
 		<div class='container'> 
 			<!-- Carousel or Slider -->
-			<div class='carousel slide' data-ride='carousel' id='mycarousel'>
+			<div class='panel'>
+				<div class='box'>
+					<div class='col-lg-10 col-lg-offset-1 text-center' >
+						<div class='carousel slide' data-ride='carousel' id='mycarousel'>
 
-				<!-- Indicators -->
-				<ol class='carousel-indicators'>
-					<li data-target='#mycarousel' data-slide-to='0' class='active'></li>
-					<li data-target='#mycarousel' data-slide-to='1'></li>
-					<li data-target='#mycarousel' data-slide-to='2'></li>
-					<li data-target='#mycarousel' data-slide-to='3'></li>
-				</ol> <!-- end Indicators -->
+						<!-- Indicators -->
+						<ol class='carousel-indicators'>
+							<li data-target='#mycarousel' data-slide-to='0' class='active'></li>
+							<li data-target='#mycarousel' data-slide-to='1'></li>
+							<li data-target='#mycarousel' data-slide-to='2'></li>
+							<li data-target='#mycarousel' data-slide-to='3'></li>
+						</ol> <!-- end Indicators -->
 
-				<!-- Slide container --> 
-				<div class='carousel-inner'>
-					<div class='item active'>
-						<img src="img/cafe-1.jpg" alt='cafe image'>
-						<div class='carousel-caption'>
-							<h3><strong>Produtos</strong></h3>
-							<p>O café sucesso apresenta uma gama de produtos feitos a pensar em si.</p>
-						</div>
-					</div>
-					<div class='item'>
-						<img src="img/cafe-2.jpg" alt='cafe image'>
-						<div class='carousel-caption'>
-							<h3><strong>Escolha</strong></h3>
-							<p>Do café mais suave até ao mais forte.</p>
-						</div>
-					</div>
-					<div class='item'>
-						<img src="img/cafe-3.jpg" alt='cafe image'>
-						<div class='carousel-caption'>
-							<h3><strong>A vontade</strong></h3>
-							<p>Os nossos produtos dão-lhe vontade de fazer o melhor café.</p>
-						</div>
-					</div>
-					<div class='item'>
-						<img src="img/cafe-4.jpg" alt='cafe image'>
-						<div class='carousel-caption'>
-							<h3><strong>Acorde</strong></h3>
-							<p>Com a melhor gama de cafés e de todos os produtos que o vão ajudar a fazer o melhor café do mundo.</p>
-						</div>
-					</div>
+					<!-- Slide container --> 
+						<div class='carousel-inner'>
+							<div class='item active'>
+								<img src="img/cafe-1.jpg" alt='cafe image'>
+								<div class='carousel-caption'>
+									<h3><strong>Produtos</strong></h3>
+									<p>O café sucesso apresenta uma gama de produtos feitos a pensar em si.</p>
+								</div>
+							</div>
+							<div class='item'>
+								<img src="img/cafe-2.jpg" alt='cafe image'>
+								<div class='carousel-caption'>
+									<h3><strong>Escolha</strong></h3>
+									<p>Do café mais suave até ao mais forte.</p>
+								</div>
+							</div>
+							<div class='item'>
+								<img src="img/cafe-3.jpg" alt='cafe image'>
+								<div class='carousel-caption'>
+									<h3><strong>A vontade</strong></h3>
+									<p>Os nossos produtos dão-lhe vontade de fazer o melhor café.</p>
+								</div>
+							</div>
+							<div class='item'>
+								<img src="img/cafe-4.jpg" alt='cafe image'>
+								<div class='carousel-caption'>
+									<h3><strong>Acorde</strong></h3>
+									<p>Com a melhor gama de cafés e de todos os produtos que o vão ajudar a fazer o melhor café do mundo.</p>
+								</div>
+							</div>
 
-					<!-- Controls -->
-					<a href="#mycarousel" class='left carousel-control' data-slide='prev'>
-						<span class='glyphicon glyphicon-chevron-left'></span>
-					</a>
-					<a href="#mycarousel" class='right carousel-control' data-slide='next'>
-						<span class='glyphicon glyphicon-chevron-right'></span>
-					</a>
-		
-				</div> <!-- end of carousel-inner -->
-					
-			</div> <!-- end of Carousel or Slider -->
-
+							<!-- Controls -->
+							<a href="#mycarousel" class='left carousel-control' data-slide='prev'>
+								<span class='glyphicon glyphicon-chevron-left'></span>
+							</a>
+							<a href="#mycarousel" class='right carousel-control' data-slide='next'>
+								<span class='glyphicon glyphicon-chevron-right'></span>
+							</a>
+				
+						</div> <!-- end of carousel-inner -->
+						
+						</div> <!-- end of Carousel or Slider -->
+					</div>
+				</div>
+			</div>
 		</div> <!-- end container --> 
 	
 	</header>
 	<main role='main'>
 
+		<hr>
 		<!-- CLIENTES -->
 		<section>
 			<div class='container'>
+			<div class='panel'>
 				<!-- Clientes: page-header -->
-				<div class='page-header text-center' id='section-clientes'>
+				<div class='panel-header text-center' id='section-clientes'>
 					<h2>Opinião. <small> O que os clientes dizem sobre nós.</small></h2>
+					<hr class='hr-header'>
 				</div> 
 
 				<div class='row text-center'>
@@ -152,7 +159,7 @@
 					<div class='panel-header' id='section-cafe'>
 						<h2>O Nosso Café </h2>
 						<p><i>A melhor variedade.</i></p>
-						<hr>
+						<hr class='hr-header'>
 					</div>
 					<div class='panel-body'>
 						<div class='row'>
@@ -209,7 +216,7 @@
 					<div class='panel-header' id='section-moinhos'>
 						<h2>Os Nossos Moinhos </h2>
 						<p><i>Para moer o melhor café.</i></p>
-						<hr>
+						<hr class='hr-header'>
 					</div>
 					<div class='panel-body'>
 						<div class='row'>
@@ -262,10 +269,11 @@
 		<section>
 			<div class='container'>
 				<hr>
-				<div class='page-header text-center' id='section-produtos'>
+				<div class='panel'>
+				<div class='panel-header text-center' id='section-produtos'>
 					<h2>Outros Produtos </h2>
 					<p><i>Escolha os produtos que fazem o seu café especial.</i></p>
-					<hr>
+					<hr class='hr-header'>
 				</div>
 
 				<div class='panel-group' id='accordion-pr'>
@@ -349,7 +357,7 @@
 							</div> <!-- end panel-body -->
 						</div> <!--panel-collapse -->
 					</div> <!-- end panel-group -->
-
+				</div>
 				</div> <!-- end of panel -->		
 			</div> <!-- end of container -->
 		</section>
@@ -359,79 +367,79 @@
 		<section>
 			<div class='container'>
 				<hr>
-				<div class='page-header text-center' id='section-contactos'>
-					<h2>Contactos </h2>
-					<p><i>Entre em contacto connosco.</i></p>
-					<hr>
-				</div>
-
-				<div class='row'>
-					<div class='col-lg-4'>
-						<p>Entre em contacto connosco através de um dos meios indicados: </p>
-						<div class='row'>
-							<div class='col-lg-4'>
-								<span class='glyphicon glyphicon-envelope'></span> Morada:
-							</div> 
-							<div class='col-lg-8'>
-								Rua Caf&eacute; Central <br>
-								Naquele sitio fantástico, n&ordm; 18 <br>
-								4700 - 000 Outro lugar, Portugal
-							</div>
-						</div>	
-						<div class='row'>
-							<div class='col-lg-4'>
-								<span class='glyphicon glyphicon-phone-alt'></span> Telefone:
-							</div>
-							<div class='col-lg-8'>
-								+ 000 000 000 000
-							</div>
-						</div>
-						<div class='row'>
-							<div class='col-lg-4'>
-								<span class='glyphicon glyphicon-phone'></span> Telem&oacute;vel:
-							</div>
-							<div class='col-lg-8'>
-								+ 000 000 000 000
-							</div>
-						</div> 
-						<div class='row'>
-							<div class='col-lg-4'>
-								<span class='fa fa-at'></span> Email: 
-							</div>
-							<div class='col-lg-8'>
-								aquelecafe@gmail.com
-							</div>
-						</div>
+				<div class='panel'>
+					<div class='panel-header text-center' id='section-contactos'>
+						<h2>Contactos </h2>
+						<p><i>Entre em contacto connosco.</i></p>
+						<hr class='hr-header'>
 					</div>
-					<div class='col-lg-8'>
-						<p>Alguma questão? Mande-nos uma mensagem: </p>
-						<form action='#' class='form-horizontal' form='form'>
-							<div class='form-group'>
-								<label for='contact-name' class='col-lg-3 control-label'> Nome</label>
-								<div class='col-lg-9'>
-									<input type="text" class="form-control" id='contact-name' placeholder='Nome'>
+				
+					<div class='row'>
+						<div class='col-sm-4 col-pd'>
+							<p>Entre em contacto connosco através de um dos meios indicados: </p>
+							<div class='row'>
+								<div class='col-sm-4 col-pd'>
+									<span class='glyphicon glyphicon-envelope'></span> Morada:
+								</div> 
+								<div class='col-sm-8'>
+									Rua Caf&eacute; Central <br>
+									Naquele sitio fantástico, n&ordm; 18 <br>
+									4700 - 000 Outro lugar, Portugal
+								</div>
+							</div>	
+							<div class='row'>
+								<div class='col-sm-4 col-pd'>
+									<span class='glyphicon glyphicon-phone-alt'></span> Telefone:
+								</div>
+								<div class='col-sm-8'>
+									+ 000 000 000 000
 								</div>
 							</div>
-							<div class='form-group'>
-								<label for='contactemail' class='col-lg-3 control-label'> Endereço de Email</label>
-								<div class='col-lg-9'>
-									<input type="email" class="form-control" id='contactemail' placeholder='Email'>
+							<div class='row'>
+								<div class='col-sm-4 col-pd'>
+									<span class='glyphicon glyphicon-phone'></span> Telem&oacute;vel:
+								</div>
+								<div class='col-sm-8'>
+									+ 000 000 000 000
+								</div>
+							</div> 
+							<div class='row'>
+								<div class='col-sm-4 col-pd'>
+									<span class='fa fa-at'></span> Email: 
+								</div>
+								<div class='col-sm-8'>
+									aquelecafe@gmail.com
 								</div>
 							</div>
-							<div class='form-group'>
-								<label for='contact-message' class='col-lg-3 control-label'><span class='fa fa-comment'></span> Mensagem</label>
-								<div class='col-lg-9'>
-									<textarea name='contact-message' id='contact-message' class='form-control' cols='30' rows='8' placeholder="Mensagem"></textarea>
+						</div>
+						<div class='col-sm-8'>
+							<p>Alguma questão? Mande-nos uma mensagem: </p>
+							<form action='#' class='form-horizontal' form='form'>
+								<div class='form-group'>
+									<label for='contact-name' class='col-sm-3 control-label'> Nome</label>
+									<div class='col-sm-9'>
+										<input type="text" class="form-control" id='contact-name' placeholder='Nome'>
+									</div>
 								</div>
-							</div>
-						</form>
-					</div> <!-- end col-lg-8 -->
+								<div class='form-group'>
+									<label for='contactemail' class='col-sm-3 control-label'> Endereço de Email</label>
+									<div class='col-sm-9'>
+										<input type="email" class="form-control" id='contactemail' placeholder='Email'>
+									</div>
+								</div>
+								<div class='form-group'>
+									<label for='contact-message' class='col-sm-3 control-label'><span class='fa fa-comment'></span> Mensagem</label>
+									<div class='col-sm-9'>
+										<textarea name='contact-message' id='contact-message' class='form-control' cols='30' rows='8' placeholder="Mensagem"></textarea>
+									</div>
+								</div>
+							</form>
+						</div> <!-- end col-lg-8 -->
+					</div>
 				</div>
 			</div> <!-- end of container -->
 		</section>
-
-		
-							
+						
 	<hr>
 	<footer role='presentation'>
 		<div class='container'>
@@ -451,8 +459,8 @@
 					<span class='fa fa-linkedin'></span>
 				</div>
 			</div>
-			<div class='row text-center'>
-				<div class='col-lg-12'>
+			<div class='row'>
+				<div class='col-lg-12 text-center'>
 					<p>Copyright &copy; My Test Website</p>
 				</div>
 			</div>

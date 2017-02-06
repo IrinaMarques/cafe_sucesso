@@ -1,36 +1,107 @@
-/*body {
-	background: url(../img/bg.jpg) no-repeat center center fixed;;
+body {
+	background: url(../img/tree1.jpg) no-repeat center center fixed;
 	background-size: cover;
-}*/
-
-/*
-.page-header {
-	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
 }
-*/
+
 p {
 	font-size: 16px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.brand {
+	color: white;
 }
 
 .row {
 	padding-top: 2em;
 }
- /*
+
+.navbar {
+	border: none;
+	border-radius: 0; 
+	padding: 15px;
+	background: rgba(255,255,255,0.9);
+}
+
+/* this make the text center */
+.navbar-collapse {
+  text-align:center;
+}
+/* this make the text center */
+.navbar-nav {
+    display:inline-block;
+    float:none;
+    font-size: 1.5em;
+}
+
+.box {
+	padding: 30px 15px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.panel {
+	background: rgba(255,255,255,0.9);
+	box-shadow: 10px 10px 24px -5px rgba(0, 0, 0, 0.3);
+}
+
+.page-header {
+	background: rgba(255,255,255,0.9);
+}
+
+hr {
+	border: 1px;
+	border-top: none;
+	margin-top: 0; 
+}
+
+.hr-header {
+	width: 30%;
+	background: rgba(0, 0, 0, 1);
+	height: 1px;
+}
+
+.col-pd {
+	padding-left: 25px;
+}
+
+form {
+	margin-right: 15px;
+}
+
+.col-lg-12:last-of-type {
+	padding-top: 10px;
+	border-top: 1px solid;
+	
+}
+
+footer {
+	background: rgba(255,255,255,0.9);
+}
+
+blockquote
+/*
+.page-header {
+	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+}
+
 .p-header {
 	font-size: 2em;
 } 
-*/
-/*
+
 img {
 	vertical-align: middle;
 }
-/*
+
 .brand {
 	font-size: 5em;
 	text-align: center;
 	}
-*/
-/*.carousel-caption {
+
+.carousel-caption {
 	background-color: black;
 	opacity: 0.5;
 	border-radius: 25px;
